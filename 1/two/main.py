@@ -1,4 +1,4 @@
-print(f"Advent of Code Day 2")
+print(f"Advent of Code Day 1 Part 2")
 
 f_data = open("input", "r")
 
