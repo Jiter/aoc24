@@ -1,3 +1,5 @@
+print(f"Advent of Code Day 1")
+
 f_data = open("input", "r")
 
 data = f_data.read()
