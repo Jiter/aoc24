@@ -1,18 +1,16 @@
 print(f"Advent of Code Day 1 Part 2")
 
-f_data = open("input", "r")
-
-data = f_data.read()
-
-data_into_list= data.split("\n")
+with open("input") as f:
+    data = f.read().splitlines()
 
 a = list()
 b = list()
 
-for line in data_into_list:
+for line in data:
     tmp = line.split("   ")
     a.append(int(tmp[0]))
     b.append(int(tmp[1]))
+
 
 sum = 0
 
